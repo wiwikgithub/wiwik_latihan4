@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h2> JavaScript Object Constructors </h2>
+		<p id="demo"></p>
+		<script>
+			function Person(first, Last, age, eye) {
+				this.firstName = first;
+				this.lastName = last;
+				this.age = age;
+				this.eyeColor = eye;
+				}
+			var myFather = new Person("John", "Doe", 50, "blue");
+			document.getElementById("demo").innerHTML = " My Father is " + myFather.age + ".";
+		</script>
+	</body>
+</html>
